@@ -37,7 +37,13 @@ services:
       - 9001:9001
     command: server /data --console-address ":9001"
     restart: always
-
+  minio-init:
+    image: minio/mc
+    depends_on:
+      - minio
+    entrypoint: [ "/bin/sh", "-c", "sleep 5; /mnt/init-minio.sh" ]
+    volumes:
+      - ./init-minio.sh:/mnt/init-minio.sh
   app:
     build: .
     environment:

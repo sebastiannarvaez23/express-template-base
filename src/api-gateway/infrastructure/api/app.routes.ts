@@ -3,11 +3,11 @@ import express, { Application, Request, Response, NextFunction } from "express";
 
 import { RouteGroup } from "../../../lib-entities/gateway/route-group.entity";
 import apiGatewayRoutes from "./api-gateway.routes";
-import authRoutes from "../../../microservices/auth/infraestructure/api/auth.routes";
-import personsRoutes from "../../../microservices/users/person/infrastructure/api/persons.routes";
-import rolesRoutes from "../../../microservices/security/role/infraestructure/api/roles.routes";
-import servicesRoutes from "../../../microservices/security/service/infraestructure/api/service.routes";
-import usersRoutes from "../../../microservices/users/user/infrastructure/api/users.routes";
+import authRoutes from "../../../features/auth/infraestructure/api/auth.routes";
+import personsRoutes from "../../../features/users/person/infrastructure/api/persons.routes";
+import rolesRoutes from "../../../features/security/role/infraestructure/api/roles.routes";
+import servicesRoutes from "../../../features/security/service/infraestructure/api/service.routes";
+import usersRoutes from "../../../features/users/user/infrastructure/api/users.routes";
 
 export class AppRoutes {
 
