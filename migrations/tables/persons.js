@@ -68,7 +68,7 @@ module.exports.createTablePersons = async (queryInterface, Sequelize) => {
         },
         updated_at: {
             type: Sequelize.DATE,
-            allowNull: false,
+            allowNull: true,
             defaultValue: Sequelize.fn('NOW'),
         },
         deleted_at: {

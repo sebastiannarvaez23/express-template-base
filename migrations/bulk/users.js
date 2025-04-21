@@ -8,7 +8,7 @@ module.exports.bulkInsertUsers = async (queryInterface, encryptionService) => {
             nickname: 'admin',
             password: encryptedPassword,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
     ]);
 }

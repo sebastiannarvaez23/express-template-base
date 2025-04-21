@@ -7,7 +7,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '0f0edb81-1855-4f49-845c-a35ddaf4204f',
@@ -16,7 +16,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'f06220a3-f854-4762-add8-ab4927919f82',
@@ -25,7 +25,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '62832b04-98bd-4b73-94e9-3008caaa2e3a',
@@ -34,7 +34,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '992920ac-fcbd-47ea-8a49-60dffc655a3c',
@@ -43,7 +43,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'a5fd20f3-bcee-4f0e-91d6-7b11cbb8c249',
@@ -52,7 +52,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'e4031627-c90d-4ca0-9ec9-dacd5037fab0',
@@ -61,7 +61,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'e529088b-c564-4c2c-86b1-f10c827d60c6',
@@ -70,7 +70,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '5d6719dc-e1f8-47ab-89c5-8e85df90fff9',
@@ -79,7 +79,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '19c363ce-2e6c-46f1-ba2f-a60d3b88cd35',
@@ -88,7 +88,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '7d8366d5-ade4-4bfe-8fd3-e14068710ab4',
@@ -97,7 +97,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '4c48b143-e3e0-4352-b359-199f90f89baf',
@@ -106,7 +106,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '0a212b8f-bd48-4395-b671-fe9012f0932f',
@@ -115,7 +115,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '7d9afd08-1648-4f4b-a52a-c18d8d0b81ae',
@@ -124,7 +124,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'f8424ed4-dbc3-4165-8ba2-4bfdbd074c71',
@@ -133,7 +133,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'c8726e82-306b-4893-a8b7-a35278dc7be9',
@@ -142,7 +142,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: 'd66f0a1d-dbd7-4cbf-85ec-52239a2c77d0',
@@ -151,7 +151,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '000cb939-cfef-4d95-a557-1574e7701da6',
@@ -160,7 +160,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
         {
             id: '14b98ca6-9326-43b1-bf3d-c9995d64fa54',
@@ -169,7 +169,7 @@ module.exports.bulkInsertServices = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         }
     ]);
 }

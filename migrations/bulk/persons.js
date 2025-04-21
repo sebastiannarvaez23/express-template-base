@@ -12,7 +12,7 @@ module.exports.bulkInsertPersons = async (queryInterface) => {
             created_by: 'b04dd987-27ae-4368-a15b-97ee6feee7d2',
             updated_by: null,
             created_at: new Date(),
-            updated_at: new Date(),
+            updated_at: null,
         },
     ]);
 }
