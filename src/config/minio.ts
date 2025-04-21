@@ -17,6 +17,19 @@ export class MinioConfig {
         });
         this._bucketName = process.env.MINIO_BUCKET_NAME!;
         this._storage = multer.memoryStorage();
+        this.createBucketIfNotExists();
+    }
+
+    private async createBucketIfNotExists() {
+        try {
+            const exists = await this._client.bucketExists(this._bucketName);
+            if (!exists) {
+                await this._client.makeBucket(this._bucketName, 'us-east-1');
+                console.log(`Bucket "${this._bucketName}" creado correctamente.`);
+            }
+        } catch (err) {
+            console.error('Error al comprobar o crear el bucket:', err);
+        }
     }
 
     async setFile(file: Express.Multer.File) {
